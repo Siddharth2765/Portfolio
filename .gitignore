@@ -1,0 +1,6 @@
+.DS_Store
+.temp/
+*.tmp
+__pycache__/
+*.log
+assets/*.mp4
