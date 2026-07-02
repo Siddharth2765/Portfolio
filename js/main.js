@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     projectsGrid.innerHTML = config.projects.map((project, index) => `
       <article class="project-card scroll-reveal ${project.aspectRatio || 'landscape'}" data-project-id="${project.id}">
         <div class="project-video-wrapper clickable" data-video-url="${project.playVideo}" data-preview-start="${project.previewStart || 0}">
-          <video class="project-video-preview" src="${project.previewVideo}" loop muted playsinline></video>
+          <video class="project-video-preview" src="${project.previewVideo}" loop muted playsinline preload="auto"></video>
           <div class="project-overlay"></div>
         </div>
         <h3>${project.title}</h3>
