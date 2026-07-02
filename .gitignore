@@ -3,4 +3,5 @@
 *.tmp
 __pycache__/
 *.log
-
+assets/*.mp4
+!assets/*-preview.mp4

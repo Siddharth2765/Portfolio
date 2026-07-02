@@ -45,7 +45,7 @@ window.PORTFOLIO_CONFIG = {
       id: "motion-graphics",
       title: "Motion Graphics",
       aspectRatio: "portrait",
-      previewVideo: "assets/Motiongraphic.mp4?v=3.2",
+      previewVideo: "assets/Motiongraphics-preview.mp4?v=4.0",
       playVideo: "https://www.youtube.com/embed/7lmwz0eJzl0",
       previewStart: 500
     },
@@ -53,7 +53,7 @@ window.PORTFOLIO_CONFIG = {
       id: "short-form-reel",
       title: "Short Form Reel",
       aspectRatio: "portrait",
-      previewVideo: "assets/ShortformReel.mp4?v=3.2",
+      previewVideo: "assets/ShortformReel-preview.mp4?v=4.0",
       playVideo: "https://www.youtube.com/embed/8qoudPt-JUI",
       previewStart: 700
     },
@@ -61,7 +61,7 @@ window.PORTFOLIO_CONFIG = {
       id: "captions",
       title: "Captions",
       aspectRatio: "portrait",
-      previewVideo: "assets/captions.mp4?v=3.2",
+      previewVideo: "assets/captions-preview.mp4?v=4.0",
       playVideo: "https://www.youtube.com/embed/loH2It64qHE",
       previewStart: 2000
     },
@@ -69,7 +69,7 @@ window.PORTFOLIO_CONFIG = {
       id: "explainer",
       title: "Explainer",
       aspectRatio: "landscape",
-      previewVideo: "assets/explainer.mp4?v=3.2",
+      previewVideo: "assets/explainer-preview.mp4?v=4.0",
       playVideo: "https://www.youtube.com/embed/4Ci11vcE1PY",
       previewStart: 35000
     },
@@ -77,7 +77,7 @@ window.PORTFOLIO_CONFIG = {
       id: "3d-camera",
       title: "3d camera",
       aspectRatio: "landscape",
-      previewVideo: "assets/3dcamera.mp4?v=3.2",
+      previewVideo: "assets/3dcamera-preview.mp4?v=4.0",
       playVideo: "https://www.youtube.com/embed/e7X1ZodGniQ",
       previewStart: 0
     }
