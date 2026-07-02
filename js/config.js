@@ -46,7 +46,7 @@ window.PORTFOLIO_CONFIG = {
       title: "Motion Graphics",
       aspectRatio: "portrait",
       previewVideo: "assets/Motiongraphics-preview.mp4?v=4.0",
-      playVideo: "https://www.youtube.com/embed/7lmwz0eJzl0",
+      playVideo: "https://www.youtube.com/embed/-XdEolWKaDE",
       previewStart: 0
     },
     {
