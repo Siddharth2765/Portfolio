@@ -46,40 +46,40 @@ window.PORTFOLIO_CONFIG = {
       title: "Motion Graphics",
       aspectRatio: "portrait",
       previewVideo: "assets/Motiongraphic.mp4?v=3.2",
-      playVideo: "assets/Motiongraphic.mp4?v=3.2",
-      previewStart: 500 // Customize this number to change the start time (in milliseconds, e.g. 5000 for 5 seconds)
+      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_1",
+      previewStart: 500
     },
     {
       id: "short-form-reel",
       title: "Short Form Reel",
       aspectRatio: "portrait",
       previewVideo: "assets/ShortformReel.mp4?v=3.2",
-      playVideo: "assets/ShortformReel.mp4?v=3.2",
-      previewStart: 700 // Customize this number to change the start time (in milliseconds, e.g. 5000 for 5 seconds)
+      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_2",
+      previewStart: 700
     },
     {
       id: "captions",
       title: "Captions",
       aspectRatio: "portrait",
       previewVideo: "assets/captions.mp4?v=3.2",
-      playVideo: "assets/captions.mp4?v=3.2",
-      previewStart: 2000 // Customize this number to change the start time (in milliseconds, e.g. 5000 for 5 seconds)
+      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_3",
+      previewStart: 2000
     },
     {
       id: "explainer",
       title: "Explainer",
       aspectRatio: "landscape",
       previewVideo: "assets/explainer.mp4?v=3.2",
-      playVideo: "assets/explainer.mp4?v=3.2",
-      previewStart: 35000 // Customize this number to change the start time (in milliseconds, e.g. 5000 for 5 seconds)
+      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_4",
+      previewStart: 35000
     },
     {
       id: "3d-camera",
       title: "3d camera",
       aspectRatio: "landscape",
       previewVideo: "assets/3dcamera.mp4?v=3.2",
-      playVideo: "assets/3dcamera.mp4?v=3.2",
-      previewStart: 0 // Customize this number to change the start time (in milliseconds, e.g. 5000 for 5 seconds)
+      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_5",
+      previewStart: 0
     }
   ],
   
