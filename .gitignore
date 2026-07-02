@@ -3,4 +3,4 @@
 *.tmp
 __pycache__/
 *.log
-assets/*.mp4
+
