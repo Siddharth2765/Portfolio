@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     projectsGrid.innerHTML = config.projects.map((project, index) => `
       <article class="project-card scroll-reveal ${project.aspectRatio || 'landscape'}" data-project-id="${project.id}">
         <div class="project-video-wrapper clickable" data-video-url="${project.playVideo}" data-preview-start="${project.previewStart || 0}">
-          <video class="project-video-preview" src="${project.previewVideo}" loop muted playsinline preload="auto"></video>
+          <video class="project-video-preview" src="${project.previewVideo}" autoplay loop muted playsinline preload="auto"></video>
           <div class="project-overlay"></div>
         </div>
         <h3>${project.title}</h3>
@@ -330,53 +330,9 @@ document.addEventListener('DOMContentLoaded', () => {
   setupCursorHoverEvents();
 
   // --- 3. VIDEO HOVER PLAYBACK ---
-  const projectWrappers = document.querySelectorAll('.project-video-wrapper');
-  projectWrappers.forEach(wrapper => {
-    const video = wrapper.querySelector('.project-video-preview');
-    if (!video) return;
+  // Managed natively by HTML5 autoplay, loop, and muted attributes for 100% instant rendering.
 
-    const start = (parseFloat(wrapper.dataset.previewStart) || 0) / 1000;
 
-    // Set initial frame once video metadata is loaded (only if start > 0)
-    if (start > 0) {
-      video.addEventListener('loadedmetadata', () => {
-        video.currentTime = start;
-      });
-
-      // If metadata was already loaded before this script runs
-      if (video.readyState >= 1) {
-        video.currentTime = start;
-      }
-    }
-
-    wrapper.addEventListener('mouseenter', () => {
-      if (start > 0 && video.currentTime < start) {
-        video.currentTime = start;
-      }
-      video.play().catch(err => console.log("Auto-playback prevented:", err));
-    });
-
-    wrapper.addEventListener('mouseleave', () => {
-      video.pause();
-      if (start > 0) {
-        video.currentTime = start;
-      } else {
-        // Reset to beginning smoothly without forcing reload if it's already paused at 0
-        if (video.currentTime > 0) {
-          video.currentTime = 0;
-        }
-      }
-    });
-
-    // Custom loop handling: if video loops back to 0, seek back to previewStart
-    if (start > 0) {
-      video.addEventListener('timeupdate', () => {
-        if (video.currentTime < start && !video.paused) {
-          video.currentTime = start;
-        }
-      });
-    }
-  });
 
   // --- 4. DIALOG LIGHTBOX MODAL ---
   const lightbox = document.getElementById('video-lightbox');
