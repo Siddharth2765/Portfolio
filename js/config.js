@@ -46,7 +46,7 @@ window.PORTFOLIO_CONFIG = {
       title: "Motion Graphics",
       aspectRatio: "portrait",
       previewVideo: "assets/Motiongraphic.mp4?v=3.2",
-      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_1",
+      playVideo: "https://www.youtube.com/embed/7lmwz0eJzl0",
       previewStart: 500
     },
     {
@@ -54,7 +54,7 @@ window.PORTFOLIO_CONFIG = {
       title: "Short Form Reel",
       aspectRatio: "portrait",
       previewVideo: "assets/ShortformReel.mp4?v=3.2",
-      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_2",
+      playVideo: "https://www.youtube.com/embed/8qoudPt-JUI",
       previewStart: 700
     },
     {
@@ -62,7 +62,7 @@ window.PORTFOLIO_CONFIG = {
       title: "Captions",
       aspectRatio: "portrait",
       previewVideo: "assets/captions.mp4?v=3.2",
-      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_3",
+      playVideo: "https://www.youtube.com/embed/loH2It64qHE",
       previewStart: 2000
     },
     {
@@ -70,7 +70,7 @@ window.PORTFOLIO_CONFIG = {
       title: "Explainer",
       aspectRatio: "landscape",
       previewVideo: "assets/explainer.mp4?v=3.2",
-      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_4",
+      playVideo: "https://www.youtube.com/embed/4Ci11vcE1PY",
       previewStart: 35000
     },
     {
@@ -78,7 +78,7 @@ window.PORTFOLIO_CONFIG = {
       title: "3d camera",
       aspectRatio: "landscape",
       previewVideo: "assets/3dcamera.mp4?v=3.2",
-      playVideo: "https://www.youtube.com/embed/PLACEHOLDER_ID_5",
+      playVideo: "https://www.youtube.com/embed/e7X1ZodGniQ",
       previewStart: 0
     }
   ],
