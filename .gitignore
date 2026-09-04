@@ -5,3 +5,6 @@ __pycache__/
 *.log
 assets/*.mp4
 !assets/*-preview.mp4
+!assets/3d motiongraphic.mp4
+!assets/kiteverseai_preview.mp4
+.vercel
