@@ -6,7 +6,7 @@ window.PORTFOLIO_CONFIG = {
     subtitle: "Creating Cinematic Experiences Through Rhythm and Motion",
     avatar: "assets/portrait.png",
     aboutImage: "assets/about-vector.png",
-    bio: "I am a professional Video Editor and Motion Designer focused on creating engaging visual stories for creators and brands. With nearly 2 years of experience and work delivered to 5+ clients, I combine storytelling, motion graphics, and retention-driven editing to create videos that capture attention and leave a lasting impact.",
+    bio: "I am a professional Video Editor and Motion Designer focused on creating engaging visual stories for creators and brands. With nearly 2 years of experience and work delivered to 10+ clients, I combine storytelling, motion graphics, and retention-driven editing to create videos that capture attention and leave a lasting impact.",
     philosophy: "Good editing is invisible. Great editing is unforgettable. I believe every cut, transition, and frame should serve a deeper narrative purpose, elevating raw footage into an immersive sensory journey.",
     resumeUrl: "#",
     email: "siddharth2765@gmail.com"
@@ -45,7 +45,7 @@ window.PORTFOLIO_CONFIG = {
       id: "motion-graphics",
       title: "Motion Graphics",
       aspectRatio: "portrait",
-      previewVideo: "assets/Motiongraphics-preview.mp4?v=4.0",
+      previewVideo: "assets/Motiongraphics-preview.mp4?v=5.0",
       playVideo: "https://www.youtube.com/embed/-XdEolWKaDE",
       previewStart: 0
     },
@@ -53,23 +53,31 @@ window.PORTFOLIO_CONFIG = {
       id: "short-form-reel",
       title: "Short Form Reel",
       aspectRatio: "portrait",
-      previewVideo: "assets/ShortformReel-preview.mp4?v=4.0",
-      playVideo: "https://www.youtube.com/embed/8qoudPt-JUI",
+      previewVideo: "assets/kiteverseai_preview.mp4?v=5.0",
+      playVideo: "https://www.youtube.com/embed/vLMvOAklbD4",
       previewStart: 0
     },
     {
       id: "captions",
       title: "Captions",
       aspectRatio: "portrait",
-      previewVideo: "assets/captions-preview.mp4?v=4.0",
+      previewVideo: "assets/captions-preview.mp4?v=5.0",
       playVideo: "https://www.youtube.com/embed/loH2It64qHE",
+      previewStart: 0
+    },
+    {
+      id: "3d-motion-graphic",
+      title: "3D Motion Graphics",
+      aspectRatio: "landscape-featured",
+      previewVideo: "assets/3d motiongraphic.mp4?v=5.0",
+      playVideo: "https://www.youtube.com/embed/kWuQ5ERlo1E",
       previewStart: 0
     },
     {
       id: "explainer",
       title: "Explainer",
       aspectRatio: "landscape",
-      previewVideo: "assets/explainer-preview.mp4?v=4.0",
+      previewVideo: "assets/explainer-preview.mp4?v=5.0",
       playVideo: "https://www.youtube.com/embed/4Ci11vcE1PY",
       previewStart: 0
     },
@@ -77,7 +85,7 @@ window.PORTFOLIO_CONFIG = {
       id: "3d-camera",
       title: "3d camera",
       aspectRatio: "landscape",
-      previewVideo: "assets/3dcamera-preview.mp4?v=4.0",
+      previewVideo: "assets/3dcamera-preview.mp4?v=5.0",
       playVideo: "https://www.youtube.com/embed/e7X1ZodGniQ",
       previewStart: 0
     }
@@ -124,7 +132,7 @@ window.PORTFOLIO_CONFIG = {
     channelName: "TheEcho",
     subtitle: "15 subscribers • 9 videos",
     channelUrl: "https://www.youtube.com/@TheEcho3160",
-    avatar: "https://yt3.googleusercontent.com/OsZfjKWKlheoNbvYHeoHYxMUs4FIxDTHnRbDD8ZzCJVFKXudMTGvXtdtvqru66mwNlrW68WrtCc=s900-c-k-c0x00ffffff-no-rj",
+    avatar: "assets/theechologo1.png",
     videos: [
       {
         title: "BMW M4 G82 [EDIT]",

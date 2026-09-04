@@ -907,6 +907,14 @@ body.cinematic-dark .software-icon-svg {
   .project-card.landscape {
     grid-column: span 3;
   }
+  .project-card.landscape-featured {
+    grid-column: 1 / -1;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .project-card.landscape-featured .project-video-wrapper {
+    aspect-ratio: 16/9;
+  }
 }
 
 .project-card {
